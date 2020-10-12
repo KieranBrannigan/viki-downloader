@@ -13,4 +13,6 @@ When the download is finished it will download the video and subs to the output 
 Maybe we can improve performance by opening a new tab for each episode. Or perhaps spawn a new process which handles the next link.
 For now it will just work with one tab/process.
 
+Tested to work with chromedriver.exe, which should be downloaded from https://chromedriver.chromium.org/downloads and placed in the root folder before running. Feel free to try other selenium drivers but these haven't been tested.
+
 TODO: maybe we should add the video file links to an outputted file which can then be used as input for downloading the files.
