@@ -1,0 +1,542 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Použiť zmeny"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "Exportovať"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "ublock-moje-statické-filtre_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored.",
+      "message": "Jeden filter na riadok. Filter môže byť jednoduchý názov hostiteľa alebo filter kompatibilný s Adblock Plus. Riadky začínajúce s &lsquo;!&rsquo; budú ignorované."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "Importovať a pripojiť"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Moje filtre"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Použiť zmeny"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "English: Auto-update filter lists.",
+      "message": "Automaticky aktualizovať zoznamy filtrov."
+   },
+   "3pExternalListNew": {
+      "description": "English: new version available",
+      "message": "dostupná nová verzia"
+   },
+   "3pExternalListObsolete": {
+      "description": "English: outdated",
+      "message": "zastarané"
+   },
+   "3pExternalListPurge": {
+      "description": "English: purge cache",
+      "message": "vyčistiť vyrovnávaciu pamäť"
+   },
+   "3pExternalListsApply": {
+      "description": "English: Parse",
+      "message": "Analyzovať"
+   },
+   "3pExternalListsHint": {
+      "description": "English: One URL per line. Lines prefixed with &lsquo;!&rsquo; will be ignored. Invalid URLs will be silently ignored.",
+      "message": "Jedna URL na riadok. Riadky začínajúce s &lsquo;!&rsquo; budú ignorované. Neplatné URL budú potichu ignorované."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "Reklamy"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "Vlastné"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "Domény malvéru"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "Viacúčelové"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "Súkromie"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "Regióny, jazyky"
+   },
+   "3pGroupSocial": {
+      "description": "English: Social",
+      "message": "Sociálne"
+   },
+   "3pLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Posledná aktualizácia: {{ago}}"
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "Zoznamy zablokovaných hostiteľov"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "English: {{used}} used out of {{total}}",
+      "message": "{{used}} použitých z {{total}}"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "English: {{netFilterCount}} network filters ＋ {{cosmeticFilterCount}} cosmetic filters from:",
+      "message": "{{netFilterCount}} sieťových filtrov ＋ {{cosmeticFilterCount}} kozmetických filtrov z:"
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Filtre tretích strán"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "English: see English messages.json",
+      "message": "\u003Cp>Táto možnosť povoľuje analyzovanie a vynútenie \u003Ca href=\"https://adblockplus.org/en/faq_internal#elemhide\">filtrov &ldquo;skrývajúcich prvky&rdquo; a kompatibilných s Adblock Plus\u003C/a>. Tieto filtre sú prevažne kozmetické. Skrývajú prvky webových stránok, ktoré sú vizuálne otravné a nemôžu byť zablokované filtrovaním sieťových požiadavkov.\u003C/p>\u003Cp>Povolenie tejto funkcie zvyšujte nároky \u003Ci>uBlock\u003C/i>na pamäť.\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "Analyzovať a vynútiť kozmetické filtre."
+   },
+   "3pPurgeAll": {
+      "description": "English: Purge all caches",
+      "message": "Vyčistiť celú vyrovnávaciu pamäť"
+   },
+   "3pUpdateNow": {
+      "description": "English: Update now",
+      "message": "Aktualizovať teraz"
+   },
+   "aboutBackupDataButton": {
+      "description": "English: Backup to file",
+      "message": "Zálohovať do súboru"
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "ublock-moja-záloha_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "English: Change log",
+      "message": "Zoznam zmien"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Zdrojový kód (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Prispievatelia"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "O doplnku"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "Obnoviť na predvolené nastavenia..."
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Všetky vaše nastavenia budú odstránené a uBlock sa reštartne.\n\nObnoviť uBlock na predvolené nastavenia?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "Obnoviť zo súboru..."
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Všetky vaše nastavenia budú prepísané pomocou dáta zálohovaných dňa {{time}} a uBlock sa reštartne.\n\nPrepísať všetky existujúce nastavenia pomocou zálohovaných dát?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "Dáta sa nepodarilo načítať alebo sú neplatné"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on Github",
+      "message": "Wiki"
+   },
+   "dashboardName": {
+      "description": "English: uBlock — Dashboard",
+      "message": "uBlock — Ovládací panel"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "Naspäť"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "Zatvoriť toto okno"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "Permanently"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "Temporarily"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "Disable strict blocking for {{hostname}}"
+   },
+   "docblockedPrompt1": {
+      "description": "English: uBlock has prevented the following page from loading:",
+      "message": "uBlock zabránil načítaniu nasledujúcej stránky:"
+   },
+   "docblockedPrompt2": {
+      "description": "English: Because of the following filter",
+      "message": "Kvôli nasledujúcemu filtru"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "pred {{value}} dňami"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "pred {{value}} hodinami"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "pred {{value}} minútami"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "pred dňom"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "pred hodinou"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "pred minútou"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: unable to connect to {{url}}",
+      "message": "Nie je možné sa pripojiť k {{url}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock"
+   },
+   "extShortDesc": {
+      "description": "this will be in the chrome web store: must be 132 characters or less",
+      "message": "Konečne efektívny blokovač, ktorý nezaťažuje CPU a pamäť."
+   },
+   "extShortName": {
+      "description": "extension short name.",
+      "message": "uBlock"
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock (off)'",
+      "message": "vypnutý"
+   },
+   "logAllowedRequestsEmpty": {
+      "description": "English: No non-blocked requests logged for this page",
+      "message": "Žiadne nezablokované požiadavky pre túto stránku"
+   },
+   "logAllowedRequestsHeader": {
+      "description": "English: Allowed requests",
+      "message": "Povolené požiadavky"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "Za oponou"
+   },
+   "logBlockedRequestsEmpty": {
+      "description": "English: No blocked requests logged for this page",
+      "message": "Žiadne zablokované požiadavky pre túto stránku"
+   },
+   "logBlockedRequestsHeader": {
+      "description": "English: Blocked requests",
+      "message": "Zablokované požiadavky"
+   },
+   "logFilterPrompt": {
+      "description": "English: filter log entries",
+      "message": "filtrovať položky v zázname"
+   },
+   "logMaxEntriesTip": {
+      "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log",
+      "message": "Maximálny počet položiek v zázname"
+   },
+   "logNetRequestsHelp": {
+      "description": "English: see _locales/en/messages.log",
+      "message": "Ak si chcete prezrieť podrobnosti o sieťových požiadavkách, povoľte túto možnosť. voľby. Zaznamenávanie sieťových požiadavok zvyšuje nároky uBlock na pamäť. Vzhľadom k tomu, že mnoho používateľov nikdy nebude používať túto funkciu, je v predvolenom nastavení zakázaná."
+   },
+   "logNetRequestsPrompt": {
+      "description": "English: Enable the logging of network requests",
+      "message": "Povoliť zaznamenávanie sieťových požiadavok"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "Doména"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "Filter"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "Typ"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "pickerContextMenuEntry": {
+      "description": "English: Block element",
+      "message": "Zablokovať prvok"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "Kozmetické filtre"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "Kliknutie, Ctrl-kliknutie"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "Vytvoriť"
+   },
+   "pickerNetFilters": {
+      "description": "English: Net filters",
+      "message": "Sieťové filtre"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "Vybrať"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "Ukončiť"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "skripty prvej triedy"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "z tretej strany"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "rámy tretej triedy"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "skripty tretej triedy"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "všetko"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "na tejto stránke"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "zablokované požiadavky"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "od inštalácie"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 or 13%",
+      "message": "{{count}} alebo {{percent}}%"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} z {{total}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "pripojené domény"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "obrázky"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "vstavané skripty"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "alebo"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock for this site.\n\nCtrl+click: disable uBlock only on this page.",
+      "message": "Kliknutie: zakázať/povoliť uBlock pre túto stránku.\n\nCtrl+kliknutie: zakázať uBlock len pre túto stránku."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Kliknite sem pre otvorenie ovládacieho panela"
+   },
+   "popupTipLog": {
+      "description": "English: Go to request log",
+      "message": "Prejsť na záznam požiadaviek"
+   },
+   "popupTipNoPopups": {
+      "description": "English: No popups for this site",
+      "message": "Žiadne vyskakovacie okná pre túto stránku"
+   },
+   "popupTipNoStrictBlocking": {
+      "description": "English: No strict blocking for this site",
+      "message": "Žiadne prísne blokovanie pre túto stránku"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "Prejsť do režimu výberu prvku"
+   },
+   "rateus": {
+      "description": "English: Rate Us!",
+      "message": "Rate Us!"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "Potvrdiť"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "ublock-moje-dynamické-pravidlá_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Upraviť"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Zahodiť"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Uložiť"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "Exportovať zo súboru"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "Syntax pravidla: \u003Ccode>zdroj cieľ typ akcia\u003C/code> (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Dynamic-filtering:-rule-syntax'>úplná dokumentácia\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "Zoznam vašich dynamických filtrovacích pravidiel."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "Importovať zo súboru..."
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Moje pravidlá"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "Trvalé pravidlá"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "Vrátiť"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "Dočasné pravidlá"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "English: ",
+      "message": "Som pokročilý používateľ (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Advanced-Mode'>Povinne prečítať\u003C/a>)"
+   },
+   "settingsAllowUserStats": {
+      "description": "English: Allow uBlock to collect anonymous ping and usage data.",
+      "message": "Allow uBlock to collect anonymous ping and usage data."
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "Skryť zástupcov zablokovaných prvkov"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "Používať kontextovú ponuku v prípade potreby"
+   },
+   "settingsExperimentalPrompt": {
+      "description": "English: Enable experimental features",
+      "message": "Povoliť experimentálne funkcie (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Experimental-features'>Popis\u003C/a>)"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "Zobraziť počet zablokovaných požiadaviek na ikone"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "Posledná záloha:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "Posledná obnova:"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Nastavenia"
+   },
+   "settingsStorageUsed": {
+      "description": "English: Storage used: {{}} bytes",
+      "message": "Využité miesto: {{value}} bajtov"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "Zobraziť ovládací panel"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Network Request Log",
+      "message": "Zobraziť záznam sieťových požiadavok"
+   },
+   "statsPageName": {
+      "description": "Title for the network request log window",
+      "message": "uBlock — Záznam sieťových požiadavok"
+   },
+   "subscriberConfirm": {
+      "description": "English: The message seen by the user to confirm subscription to a ABP filter list",
+      "message": "uBlock: Pridať nasledujúcu URL do zoznamu vlastných filtrov?\n\nNázov: \"{{title}}\"\nURL: {{url}}"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "Použiť zmeny"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "Exportovať"
+   },
+   "whitelistExportFilename": {
+      "description": "English: my-ublock-whitelist_{{datetime}}.txt",
+      "message": "ublock-moja-biela-listina_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "Importovať a pripojiť"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Biela listina"
+   },
+   "whitelistPrompt": {
+      "description": "English: Your list of host names for which uBlock will be disabled. One host name per line. Invalid host names will be silently ignored.",
+      "message": "Váš zoznam názvov hostiteľov, pre ktoré bude uBlock zakázaný. Jedna položka na riadok. Neplatné názvy hostiteľov budú ignorované."
+   }
+}

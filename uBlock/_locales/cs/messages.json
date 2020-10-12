@@ -1,0 +1,542 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Použít změny"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "Exportovat"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "ublock-me-vlastni-filtry_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored.",
+      "message": "Jeden filtr na řádek. Filtr může být prostý název hostitele nebo filtr kompatibilní s Adblock Plus. Řádky začínající na &lsquo;!&rsquo; budou ignorovány."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "Importovat a připojit"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Vaše filtry"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Použít změny"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "English: Auto-update filter lists.",
+      "message": "Automaticky aktualizovat seznamy filtrů."
+   },
+   "3pExternalListNew": {
+      "description": "English: new version available",
+      "message": "nová verze je k dispozici"
+   },
+   "3pExternalListObsolete": {
+      "description": "English: outdated",
+      "message": "zastaralé"
+   },
+   "3pExternalListPurge": {
+      "description": "English: purge cache",
+      "message": "vyprázdnit cache"
+   },
+   "3pExternalListsApply": {
+      "description": "English: Parse",
+      "message": "Použít"
+   },
+   "3pExternalListsHint": {
+      "description": "English: One URL per line. Lines prefixed with &lsquo;!&rsquo; will be ignored. Invalid URLs will be silently ignored.",
+      "message": "Jedna adresa URL na řádek. Řádky začínající na &lsquo;!&rsquo; budou ignorovány. Neplatné adresy URL budou tiše ignorovány."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "Reklamy"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "Vlastní"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "Malware domény"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "Víceúčelové"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "Soukromí"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "Regionální, jazykové"
+   },
+   "3pGroupSocial": {
+      "description": "English: Social",
+      "message": "Sociální"
+   },
+   "3pLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Poslední aktualizace: {{ago}}"
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "Seznamy blokovaných hostitelů"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "English: {{used}} used out of {{total}}",
+      "message": "{{used}} použito z celkových {{total}}"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "English: {{netFilterCount}} network filters ＋ {{cosmeticFilterCount}} cosmetic filters from:",
+      "message": "{{netFilterCount}} síťových filtrů ＋ {{cosmeticFilterCount}} kosmetických filtrů z:"
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Filtry třetích stran"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "English: see English messages.json",
+      "message": "\u003Cp>Tímto povolíte zpracovávání a používání \u003Ca href=\"https://adblockplus.org/en/faq_internal#elemhide\">&ldquo;element hiding&rdquo; filtrů kompatibilních s Adblockem Plus\u003C/a>. Tyto filtry jsou převážně kosmetické. Skrývají prvky webových stránek, které jsou vizuálně na obtíž a nemohou být zablokovány síťovým požadavkem.\u003C/p>\u003Cp>Povolení této funkce zvětšuje stopy \u003Ci>uBlock\u003C/i>u v paměti.\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "Zpracovat a použít kosmetické filtry."
+   },
+   "3pPurgeAll": {
+      "description": "English: Purge all caches",
+      "message": "Vyčistit celou mezipaměť"
+   },
+   "3pUpdateNow": {
+      "description": "English: Update now",
+      "message": "Aktualizovat nyní"
+   },
+   "aboutBackupDataButton": {
+      "description": "English: Backup to file",
+      "message": "Zálohovat do souboru..."
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "ublock-moje-zaloha_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "English: Change log",
+      "message": "Change log"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Zdrojový kód (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Přispěvatelé"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "O rozšíření"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "Obnovit výchozí nastavení..."
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Všechna nastavení budou smazána a uBlock se restaruje.\n\nObnovit uBlock do továrního nastavení?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "Obnovit ze souboru..."
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Všechna nastavení budou přepsána těmi zálohovanými {{time}} a uBlock se restartuje.\n\nPřepsat všechna existující nastavení zálohovanými daty?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "Data nemohla být načtena nebo jsou neplatná"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on Github",
+      "message": "Wiki"
+   },
+   "dashboardName": {
+      "description": "English: uBlock — Dashboard",
+      "message": "uBlock — Řídící panel"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "Jít zpět"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "Zavřít toto okno"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "Trvale"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "Dočasně"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "Zakázat striktní blokování pro {{hostname}}"
+   },
+   "docblockedPrompt1": {
+      "description": "English: uBlock has prevented the following page from loading:",
+      "message": "uBlock zabránil následující stránce v načtení:"
+   },
+   "docblockedPrompt2": {
+      "description": "English: Because of the following filter",
+      "message": "Kvůli následujícímu filtru"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "před {{value}} dny"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "před {{value}} hodinami"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "před {{value}} minutami"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "včera"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "před hodinou"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "před minutou"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: unable to connect to {{url}}",
+      "message": "Nelze se připojit k {{url}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock"
+   },
+   "extShortDesc": {
+      "description": "this will be in the chrome web store: must be 132 characters or less",
+      "message": "Konečně efektivní blokovač, který nezatěžuje CPU a paměť."
+   },
+   "extShortName": {
+      "description": "extension short name.",
+      "message": "uBlock"
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock (off)'",
+      "message": "vypnutý"
+   },
+   "logAllowedRequestsEmpty": {
+      "description": "English: No non-blocked requests logged for this page",
+      "message": "Žádné nezablokované požadavky pro tuto stránku"
+   },
+   "logAllowedRequestsHeader": {
+      "description": "English: Allowed requests",
+      "message": "Povolené požadavky"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "Za oponou"
+   },
+   "logBlockedRequestsEmpty": {
+      "description": "English: No blocked requests logged for this page",
+      "message": "Žádné blokované požadavky pro tuto stránku"
+   },
+   "logBlockedRequestsHeader": {
+      "description": "English: Blocked requests",
+      "message": "Blokované požadavky"
+   },
+   "logFilterPrompt": {
+      "description": "English: filter log entries",
+      "message": "filtrovat záznamy"
+   },
+   "logMaxEntriesTip": {
+      "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log",
+      "message": "Maximální počet záznamů"
+   },
+   "logNetRequestsHelp": {
+      "description": "English: see _locales/en/messages.log",
+      "message": "Pokud chcete kontrolovat detaily síťových požadavků, povolte tuto možnost. Protokolování síťových požadavků zvětšuje stopu uBlocku v paměti. Jelikož tuto funkci mnoho uživatelů nikdy nepoužije, je ve výchozím nastavení zakázána."
+   },
+   "logNetRequestsPrompt": {
+      "description": "English: Enable the logging of network requests",
+      "message": "Povolit protokolování síťových požadavků"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "Doména"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "Filtr"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "Typ"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "pickerContextMenuEntry": {
+      "description": "English: Block element",
+      "message": "Blokovat prvek"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "Kosmetické filtry"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "Kliknutí, Ctrl+Kliknutí"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "Vytvořit"
+   },
+   "pickerNetFilters": {
+      "description": "English: Net filters",
+      "message": "Síťové filtry"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "Vybrat"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "Ukončit"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "skripty první strany"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "z třetí strany"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "rámce třetích stran"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "skripty třetích stran"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "vše"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "na této stránce"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "zablokované požadavky:"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "od instalace"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 or 13%",
+      "message": "{{count}} neboli {{percent}}%"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} z {{total}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "domén připojeno"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "obrázky"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "řádkové skripty"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "neboli"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock for this site.\n\nCtrl+click: disable uBlock only on this page.",
+      "message": "Kliknutí: trvale zakázat uBlock pro celý tento web.\n\nCtrl+kliknutí: zakázat µBlock pouze pro tuto stránku."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Kliknutím sem otevřete řídicí panel"
+   },
+   "popupTipLog": {
+      "description": "English: Go to request log",
+      "message": "Log požadavků"
+   },
+   "popupTipNoPopups": {
+      "description": "English: No popups for this site",
+      "message": "Žádná vyskakovací okna pro tento web"
+   },
+   "popupTipNoStrictBlocking": {
+      "description": "English: No strict blocking for this site",
+      "message": "Žádné striktní blokování pro tento web"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "Režim výběru prvků"
+   },
+   "rateus": {
+      "description": "English: Rate Us!",
+      "message": "Rate Us!"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "Potvrdit"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "ublock-ma-dynamicka-pravidla_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Upravit"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Zrušit"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Uložit"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "Exportovat do souboru"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "Syntaxe pravidel: \u003Ccode>zdroj destinace typ akce\u003C/code> (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Dynamic-filtering:-rule-syntax'>kompletní dokumentace\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "Seznam vašich pravidel pro dynamické filtrování."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "Načíst ze souboru…"
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Vaše pravidla"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "Permanentní pravidla"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "Vrátit"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "Dočasná pravidla"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "English: ",
+      "message": "Jsem pokročilý uživatel (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Advanced-Mode'>Nutno přečíst\u003C/a>)"
+   },
+   "settingsAllowUserStats": {
+      "description": "English: Allow uBlock to collect anonymous ping and usage data.",
+      "message": "Allow uBlock to collect anonymous ping and usage data."
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "Skrýt zástupné objekty zablokovaných prvků"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "Využít kontextovou nabídku kde je to možné"
+   },
+   "settingsExperimentalPrompt": {
+      "description": "English: Enable experimental features",
+      "message": "Povolit experimentální funkce (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Experimental-features'>co to je?\u003C/a>)"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "Zobrazit počet blokovaných požadavků u ikony"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "Poslední záloha:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "Poslední obnova:"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Nastavení"
+   },
+   "settingsStorageUsed": {
+      "description": "English: Storage used: {{}} bytes",
+      "message": "Prostoru využito: {{value}} bajtů"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "Zobrazit řídící panel"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Network Request Log",
+      "message": "Zobrazit protokol síťových požadavků"
+   },
+   "statsPageName": {
+      "description": "Title for the network request log window",
+      "message": "uBlock — Záznamy síťových požadavků"
+   },
+   "subscriberConfirm": {
+      "description": "English: The message seen by the user to confirm subscription to a ABP filter list",
+      "message": "uBlock: Přidat následující URL adresu do seznamů vlastních filtrů?\n\nNázev: \"{{title}}\"\nURL: {{url}}"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "Použít změny"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "Exportovat"
+   },
+   "whitelistExportFilename": {
+      "description": "English: my-ublock-whitelist_{{datetime}}.txt",
+      "message": "ublock-muj-whitelist_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "Importovat a připojit"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Povolené domény"
+   },
+   "whitelistPrompt": {
+      "description": "English: Your list of host names for which uBlock will be disabled. One host name per line. Invalid host names will be silently ignored.",
+      "message": "Váš seznam názvů hostitelů, pro které bude uBlock zakázán. Jedna položka na řádek. Neplatné názvy hostitelů budou tiše ignorovány."
+   }
+}

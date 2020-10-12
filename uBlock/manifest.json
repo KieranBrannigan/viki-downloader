@@ -1,0 +1,44 @@
+{
+   "author": "All uBlock contributors",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/browsericons/icon19-off.png",
+      "default_popup": "popup.html",
+      "default_title": "uBlock"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/vapi-client.js", "js/contentscript-start.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/contentscript-end.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "js/subscriber.js" ],
+      "matches": [ "https://*.adblockplus.org/*", "https://*.adblockplus.me/*", "https://www.fanboy.co.nz/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extShortDesc__",
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnWgq3x7re2nbbV3QT7QSeSHy2Ngq5GLq1NoaGAqH/MUmKEL8qfTs07cFgae6e7SFlD2N/dTbBTE921Ra0k7w9JmjTEoUSwM6ZAYtCP7FELiwcVXNqTMJ7fGo9V/JDF2xJyyc1pntemFDyEoUsW/ugp1o1kJoF4MkNRnGCK0RLeWs2D2tovtK524hspFjxIr/VkB4ive5GVmU1r2rRpG/gsCKenQh/5ThF3Ag91NZEuUk4h2cW13Ao63kDcH2Skwk9HdVNXwZJg1oytexqddxBiEmuH2ODPK1lH+hTBaG79Afc7HHEbcP8rMlVP1hMcQ1fskK4QMnoZHY3xXsiy89RwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "49.0",
+   "name": "__MSG_extName__",
+   "options_page": "dashboard.html",
+   "options_ui": {
+      "page": "options_ui.html"
+   },
+   "permissions": [ "contextMenus", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "short_name": "__MSG_extShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.5.25"
+}

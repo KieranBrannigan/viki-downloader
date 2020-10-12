@@ -1,0 +1,542 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "套用變更"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "匯出"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "我的-ublock-靜態過濾規則_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored.",
+      "message": "每行一個過濾規則。一個規則可以是一個平凡的主機名稱或者是一個與 Adblock Plus 相容的過濾規則。以“!”開頭的行將被忽略。"
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "匯入並加入"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "自訂過濾規則"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "套用變更"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "English: Auto-update filter lists.",
+      "message": "自動更新過濾規則列表"
+   },
+   "3pExternalListNew": {
+      "description": "English: new version available",
+      "message": "有新版本"
+   },
+   "3pExternalListObsolete": {
+      "description": "English: outdated",
+      "message": "已過期"
+   },
+   "3pExternalListPurge": {
+      "description": "English: purge cache",
+      "message": "清除快取"
+   },
+   "3pExternalListsApply": {
+      "description": "English: Parse",
+      "message": "解析"
+   },
+   "3pExternalListsHint": {
+      "description": "English: One URL per line. Lines prefixed with &lsquo;!&rsquo; will be ignored. Invalid URLs will be silently ignored.",
+      "message": "每行一個網址。以“!”開頭的行將被忽略。無效的網址將被忽略。"
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "廣告"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "自訂"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "惡意域名"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "多用途"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "隱私"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "地區，語言"
+   },
+   "3pGroupSocial": {
+      "description": "English: Social",
+      "message": "社交"
+   },
+   "3pLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "最後更新：{{ago}}"
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "已阻擋的主機列表"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "English: {{used}} used out of {{total}}",
+      "message": "在 {{total}} 個中，已使用 {{used}} 個"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "English: {{netFilterCount}} network filters ＋ {{cosmeticFilterCount}} cosmetic filters from:",
+      "message": "目前已使用 {{netFilterCount}} 個網址過濾規則 ＋ {{cosmeticFilterCount}} 個元素隱藏過濾規則："
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "第三方過濾規則"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "English: see English messages.json",
+      "message": "\u003Cp>這項選項啟用了與 \u003Ca href=\"https://adblockplus.org/zh_TW/faq_internal#elemhide\">Adblock Plus 所相容的 &ldquo;元素隱藏&rdquo; 過濾規則\u003C/a>。這些過濾規則本質上只是裝飾，它們被用於隱藏一個網頁上被認為礙眼的元素，並且這些元素不能被網路連線需求類型的過濾引擎所阻擋。\u003C/p>\u003Cp>啟用這項功能將增加 \u003Ci>uBlock\u003C/i> 的記憶體使用量。\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "解析並套用 Adblock+ 元素隱藏過濾規則。"
+   },
+   "3pPurgeAll": {
+      "description": "English: Purge all caches",
+      "message": "清除所有快取"
+   },
+   "3pUpdateNow": {
+      "description": "English: Update now",
+      "message": "立即更新"
+   },
+   "aboutBackupDataButton": {
+      "description": "English: Backup to file",
+      "message": "備份到檔案…"
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "我的-ublock-備份_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "English: Change log",
+      "message": "更新日誌"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "原始程式碼（GPLv3）"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "貢獻者"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "關於"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "重置為預設設定"
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "所有您的設定將被移除，而 uBlock 將會重新啟動。\n\n確定要將 uBlock 回復原廠設定？"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "從檔案還原…"
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "所有您的設定將會被備份於 {{time}} 的資料覆蓋，而 uBlock 將會重新啟動。\n\n確定用備份的資料覆蓋所有的現有設定嗎？"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "資料無法讀取或無效"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on Github",
+      "message": "共筆系統"
+   },
+   "dashboardName": {
+      "description": "English: uBlock — Dashboard",
+      "message": "uBlock — 控制台"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "返回"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "關閉此視窗"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "永久地"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "暫時地"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "關閉針對 {{hostname}} 的嚴謹阻擋"
+   },
+   "docblockedPrompt1": {
+      "description": "English: uBlock has prevented the following page from loading:",
+      "message": "uBlock 已防止下列的頁面進行讀取："
+   },
+   "docblockedPrompt2": {
+      "description": "English: Because of the following filter",
+      "message": "因為下列的過濾"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} 天前"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} 小時前"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} 分鐘前"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "1 天前"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "1 小時前"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "1 分鐘前"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: unable to connect to {{url}}",
+      "message": "無法連接到 {{url}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock"
+   },
+   "extShortDesc": {
+      "description": "this will be in the chrome web store: must be 132 characters or less",
+      "message": "終於出現了，一個高效率的阻擋器，使用不多的 CPU 及記憶體資源。"
+   },
+   "extShortName": {
+      "description": "extension short name.",
+      "message": "uBlock"
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock (off)'",
+      "message": "關閉"
+   },
+   "logAllowedRequestsEmpty": {
+      "description": "English: No non-blocked requests logged for this page",
+      "message": "本頁面沒有不阻擋連線請求的記錄"
+   },
+   "logAllowedRequestsHeader": {
+      "description": "English: Allowed requests",
+      "message": "已允許的連線請求"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "背景的網路連線請求"
+   },
+   "logBlockedRequestsEmpty": {
+      "description": "English: No blocked requests logged for this page",
+      "message": "本頁面沒有阻擋連線請求的記錄"
+   },
+   "logBlockedRequestsHeader": {
+      "description": "English: Blocked requests",
+      "message": "已阻擋的連線請求"
+   },
+   "logFilterPrompt": {
+      "description": "English: filter log entries",
+      "message": "過濾日誌項目"
+   },
+   "logMaxEntriesTip": {
+      "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log",
+      "message": "最大日誌項目的數量"
+   },
+   "logNetRequestsHelp": {
+      "description": "English: see _locales/en/messages.log",
+      "message": "開啟此選項，將可以查看網路請求的詳細資訊。這個功能會增加 uBlock 的記憶體使用量。由於多數使用者不需要此功能，因此它預設是停用的。"
+   },
+   "logNetRequestsPrompt": {
+      "description": "English: Enable the logging of network requests",
+      "message": "啟用網路連線請求記錄"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "域名"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "過濾規則"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "類型"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "網址"
+   },
+   "pickerContextMenuEntry": {
+      "description": "English: Block element",
+      "message": "阻擋元素"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "元素隱藏過濾規則"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "點擊，按住 Ctrl 鍵點擊"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "建立"
+   },
+   "pickerNetFilters": {
+      "description": "English: Net filters",
+      "message": "網址過濾規則"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "選擇"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "離開"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "第一方腳本"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "第三方"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "第三方框架"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "第三方腳本"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "全部"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "在此頁面上"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "已阻擋的連線請求"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "自安裝後"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 or 13%",
+      "message": "{{count}} 個（{{percent}}%）"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} 個（全部共 {{total}} 個）"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "已連結的域名"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "圖片"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "行內腳本"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "個或"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock for this site.\n\nCtrl+click: disable uBlock only on this page.",
+      "message": "點擊：對此網站 停用/啟用 uBlock。\n\nCtrl + 點擊：僅在此頁面停用 uBlock。"
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "點一下開啟控制台"
+   },
+   "popupTipLog": {
+      "description": "English: Go to request log",
+      "message": "查看連線請求日誌"
+   },
+   "popupTipNoPopups": {
+      "description": "English: No popups for this site",
+      "message": "此網站並無彈出式視窗"
+   },
+   "popupTipNoStrictBlocking": {
+      "description": "English: No strict blocking for this site",
+      "message": "此網站並無嚴謹的阻擋"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "進入元素選擇器模式"
+   },
+   "rateus": {
+      "description": "English: Rate Us!",
+      "message": "Rate Us!"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "提交"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "我的-ublock-動態過濾規則_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "編輯"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "捨棄"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "儲存"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "匯出至檔案…"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "規則語法：\u003Ccode>來源主機名稱 目標主機名稱 連線請求類型 操作\u003C/code>（\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Dynamic-filtering:-rule-syntax'>完整說明\u003C/a>）。"
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "您的動態過濾規則列表"
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "從檔案匯入…"
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "自訂動態過濾規則"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "永久規則"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "還原"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "臨時規則"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "English: ",
+      "message": "我是進階的使用者（\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Advanced-Mode'>必讀資訊\u003C/a>）"
+   },
+   "settingsAllowUserStats": {
+      "description": "English: Allow uBlock to collect anonymous ping and usage data.",
+      "message": "Allow uBlock to collect anonymous ping and usage data."
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "隱藏已阻擋的元素的預留位置"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "使用階層式內容功能表"
+   },
+   "settingsExperimentalPrompt": {
+      "description": "English: Enable experimental features",
+      "message": "啟用實驗性質的功能（\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Experimental-features'>關於\u003C/a>）"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "在圖示上顯示已被阻擋的連線請求數量"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "最後備份："
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "最後還原："
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "設定"
+   },
+   "settingsStorageUsed": {
+      "description": "English: Storage used: {{}} bytes",
+      "message": "儲存空間：已使用 {{value}} 位元組"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "顯示控制台"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Network Request Log",
+      "message": "顯示網路連線請求日誌"
+   },
+   "statsPageName": {
+      "description": "Title for the network request log window",
+      "message": "uBlock — 網路連線請求日誌"
+   },
+   "subscriberConfirm": {
+      "description": "English: The message seen by the user to confirm subscription to a ABP filter list",
+      "message": "uBlock：新增下列網址至自定義過濾規則列表？\n\n標題：\"{{title}}\"\n網址：{{url}}"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "套用變更"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "匯出"
+   },
+   "whitelistExportFilename": {
+      "description": "English: my-ublock-whitelist_{{datetime}}.txt",
+      "message": "我的-ublock-白名單_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "匯入並加入"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "白名單"
+   },
+   "whitelistPrompt": {
+      "description": "English: Your list of host names for which uBlock will be disabled. One host name per line. Invalid host names will be silently ignored.",
+      "message": "列表裡的主機名稱將被 uBlock 停用。每行一個規則。無效的主機名稱將被忽略掉。"
+   }
+}

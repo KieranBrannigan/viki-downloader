@@ -1,0 +1,379 @@
+{
+    "ISL": {
+        "off": true,
+        "title": "ISL: Icelandic ABP List",
+        "group": "regions",
+        "homeURL": "https://adblock.gardar.net/is.abp.txt"
+        },
+    "CHN-01": {
+        "off": true,
+        "title": "CHN: CJX's EasyList Lite",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt"
+        },
+    "ITA-01": {
+        "off": true,
+        "title": "ITA: ABP X Files",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt"
+        },
+    "RUS-01": {
+        "off": true,
+        "title": "RUS: RU AdList (Дополнительная региональная подписка)",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/advblock.txt"
+        },
+    "RUS-02": {
+        "off": true,
+        "title": "RUS: BitBlock List (Дополнительная подписка фильтров)",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/bitblock.txt"
+        },
+    "easylist": {
+        "title": "EasyList",
+        "group": "ads",
+        "assetURL": "easylist-downloads.adblockplus.org/easylist.txt",
+        "homeURL": "https://easylist-downloads.adblockplus.org/easylist.txt"
+        },
+    "acceptable-ads": {
+        "title": "Acceptable Ads",
+        "group": "ads",
+        "assetURL": "easylist-downloads.adblockplus.org/exceptionrules.txt",
+        "homeURL": "https://easylist-downloads.adblockplus.org/exceptionrules.txt"
+        },
+    "abp-anti-circumvension": {
+        "title": "ABP Anti-Circumvention Filter List",
+        "group": "ads",
+        "assetURL": "raw.githubusercontent.com/abp-filters-anti-cv/english.txt",
+        "homeURL": "https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/english.txt"
+        },
+    "cryptocurrency": {
+        "title": "Cryptocurrency (Bitcoin) Mining Protection List",
+        "group": "privacy",
+        "assetURL": "raw.githubusercontent.com/adblock-nocoin-list/nocoin.txt",
+        "homeURL": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
+        },
+    "easylist-noelemhide": {
+        "off": true,
+        "title": "EasyList without element hiding rules",
+        "group": "ads",
+        "homeURL": "https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt"
+        },
+    "CHN-02": {
+        "off": true,
+        "title": "CHN: EasyList China (中文)",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/easylistchina.txt"
+        },
+    "NLD": {
+        "off": true,
+        "title": "NLD: EasyList Dutch",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/easylistdutch.txt"
+        },
+    "DEU": {
+        "off": true,
+        "title": "DEU: EasyList Germany",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/easylistgermany.txt"
+        },
+    "ITA": {
+        "off": true,
+        "title": "ITA: EasyList Italy",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/easylistitaly.txt"
+        },
+    "easyprivacy": {
+        "off": true,
+        "title": "EasyPrivacy",
+        "group": "privacy",
+        "assetURL": "easylist-downloads.adblockplus.org/easyprivacy.txt",
+        "homeURL": "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
+        },
+    "fanboy-annoyance": {
+        "off": true,
+        "title": "Fanboy’s Annoyance List",
+        "group": "social",
+        "homeURL": "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt"
+        },
+    "fanboy-social": {
+        "off": true,
+        "title": "Fanboy’s Social Blocking List",
+        "group": "social",
+        "homeURL": "https://easylist-downloads.adblockplus.org/fanboy-social.txt"
+        },
+    "FRA": {
+        "off": true,
+        "title": "FRA: EasyList Liste FR",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/liste_fr.txt"
+        },
+    "LVA": {
+        "off": true,
+        "title": "LVA: Latvian List",
+        "group": "regions",
+        "homeURL": "https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt"
+        },
+    "NOR-DNK-ISL": {
+        "off": true,
+        "title": "NOR, DNK, ISL: Dandelion Sprouts nordiske filtre",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt"
+        },
+    "hpHosts": {
+        "off": true,
+        "title": "hpHosts’s Ad and tracking servers",
+        "group": "multipurpose",
+        "homeURL": "https://hosts-file.net/.%5Cad_servers.txt"
+        },
+    "EST": {
+        "off": true,
+        "title": "EST: Eesti saitidele kohandatud filter",
+        "group": "regions",
+        "homeURL": "http://adblock.ee/list.php"
+        },
+    "adblock-warning-rm": {
+        "off": true,
+        "title": "Adblock Warning Removal List",
+        "group": "ads",
+        "homeURL": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
+        },
+    "IDN-MYS": {
+        "off": true,
+        "title": "IDN, MYS: ABPindo",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt"
+        },
+    "IRN": {
+        "off": true,
+        "title": "IRN: Adblock-Iran",
+        "group": "regions",
+        "homeURL": "https://gitcdn.xyz/repo/farrokhi/adblock-iran/master/filter.txt"
+        },    
+    "ARA": {
+        "off": true,
+        "title": "ara: Liste AR",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/Liste_AR.txt"
+        },
+    "LTU": {
+        "off": true,
+        "title": "LTU: Adblock Plus Lithuania",
+        "group": "regions",
+        "homeURL": "http://margevicius.lt/easylistlithuania.txt"
+        },
+    "malware-01": {
+        "off": true,
+        "title": "Malware domains",
+        "group": "malware",
+        "assetURL": "mirror1.malwaredomains.com/files/justdomains",
+        "homeURL": "https://mirror1.malwaredomains.com/files/justdomains"
+        },
+    "peter-lowe-ad": {
+        "off": true,
+        "title": "Peter Lowe’s Ad server list",
+        "group": "ads",
+        "assetURL": "pgl.yoyo.org/as/serverlist",
+        "homeURL": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext"
+        },
+    "ISR": {
+        "off": true,
+        "title": "ISR: EasyList Hebrew",
+        "group": "regions",
+        "updatefrequency": 1,
+        "homeURL": "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt"
+        },
+    "POL-01": {
+        "off": true,
+        "title": "POL: Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt"
+        },
+    "POL-02": {
+        "off": true,
+        "title": "POL: Oficjalne polskie filtry przeciwko alertom o Adblocku",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/olegwukr/polish-privacy-filters/master/anti-adblock.txt"
+        },    
+    "JPN": {
+        "off": true,
+        "title": "JPN: ABP Japanese filters (日本用フィルタ)",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt"
+        },
+    "HUN": {
+        "off": true,
+        "title": "HUN: hufilter",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt"
+        },
+    "CZE-SVK": {
+        "off": true,
+        "title": "CZE, SVK: EasyList Czech and Slovak",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt"
+        },
+    "FIN": {
+        "off": true,
+        "title": "FIN: Adblock List for Finland",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/master/Finland_adb.txt"
+        },
+    "dan-pollock": {
+        "off": true,
+        "title": "Dan Pollock’s hosts file",
+        "group": "multipurpose",
+        "homeURL": "http://someonewhocares.org/hosts/hosts"
+        },
+    "Spam404": {
+        "off": true,
+        "title": "Spam404",
+        "group": "malware",
+        "homeURL": "https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt"
+        },
+    "BGR": {
+        "off": true,
+        "title": "BGR: Bulgarian Adblock list",
+        "group": "regions",
+        "homeURL": "http://stanev.org/abp/adblock_bg.txt"
+        },
+    "mvps": {
+        "off": true,
+        "title": "MVPS HOSTS",
+        "group": "multipurpose",
+        "homeURL": "http://winhelp2002.mvps.org/hosts.txt"
+        },
+    "fanboy-enhanced-tracking": {
+        "off": true,
+        "title": "Fanboy's Enhanced Tracking List",
+        "group": "privacy",
+        "homeURL": "https://www.fanboy.co.nz/enhancedstats.txt"
+        },
+    "fanboy-antifacebook": {
+        "off": true,
+        "title": "Anti-ThirdpartySocial (see warning inside list)",
+        "group": "social",
+        "homeURL": "https://www.fanboy.co.nz/fanboy-antifacebook.txt"
+        },
+    "KOR-01": {
+        "off": true,
+        "title": "KOR: Korean Adblock List",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/gfmaster/adblock-korea-contrib/master/filter.txt"
+        },
+    "KOR-02": {
+        "off": true,
+        "title": "KOR: YousList",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/yous/YousList/master/youslist.txt"
+        },    
+    "SWE": {
+        "off": true,
+        "title": "SWE: Frellwit's Swedish Filter",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt"
+        },
+    "SPA-POR": {
+        "off": true,
+        "title": "spa, por: AdGuard Spanish/Portuguese",
+        "group": "regions",
+        "homeURL": "https://filters.adtidy.org/extension/ublock/filters/9.txt"
+        },    
+    "THA": {
+        "off": true,
+        "title": "THA: EasyList Thailand",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/easylist-thailand/easylist-thailand/master/subscription/easylist-thailand.txt"
+        },    
+    "SPA": {
+        "off": true,
+        "title": "spa: EasyList Spanish",
+        "group": "regions",
+        "homeURL": "https://easylist-downloads.adblockplus.org/easylistspanish.txt"
+        },   
+    "fanboy-ultimate": {
+        "off": true,
+        "title": "Fanboy+Easylist-Merged Ultimate List",
+        "group": "multipurpose",
+        "homeURL": "https://www.fanboy.co.nz/r/fanboy-ultimate.txt"
+        },
+    "VIE": {
+        "off": true,
+        "title": "VIE: ABPVN List",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt"
+        },
+    "malware-02": {
+        "off": true,
+        "title": "Malware Domain List",
+        "group": "malware",
+        "assetURL": "www.malwaredomainlist.com/hostslist/hosts.txt",
+        "homeURL": "https://www.malwaredomainlist.com/hostslist/hosts.txt"
+        },
+    "GRC": {
+        "off": true,
+        "title": "GRC: Greek AdBlock Filter",
+        "group": "regions",
+        "homeURL": "https://www.void.gr/kargig/void-gr-filters.txt"
+        },
+    "ROU": {
+        "off": true,
+        "title": "ROU: Romanian Ad (ROad) Block List Light",
+        "group": "regions",
+        "homeURL": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt"
+        },
+    "adguard-base": {
+        "off": true,
+        "title": "Adguard Base Filters",
+        "group": "ads",
+        "homeURL": "https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt"
+        },
+    "adguard-spyware": {
+        "off": true,
+        "title": "Adguard Spyware Filters",
+        "group": "privacy",
+        "homeURL": "https://filters.adtidy.org/extension/ublock/filters/3.txt"
+    },    
+    "adguard-annoyance": {
+        "off": true,
+        "title": "Adguard’s Annoyance List",
+        "group": "social",
+        "homeURL": "https://filters.adtidy.org/extension/ublock/filters/14.txt"
+    },
+    "adguard-social": {
+        "off": true,
+        "title": "AdGuard Social Media",
+        "group": "social",
+        "homeURL": "https://filters.adtidy.org/extension/ublock/filters/4.txt"
+    },
+    "fanboy-cookiemonster": {
+        "off": true,
+        "title": "Fanboy’s Cookiemonster List",
+        "group": "social",
+        "homeURL": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt"
+    },
+    "disconnect": {
+        "off": true,
+        "title": "Malvertising filter list by Disconnect",
+        "group": "malware",
+        "homeURL": "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
+    },
+    "JPN-01": {
+        "off": true,
+        "title": "JPN: Adguard Japan Filter",
+        "group": "regions",
+        "homeURL": "https://filters.adtidy.org/extension/ublock/filters/7.txt"
+    },
+    "RUS": {
+        "off": true,
+        "title": "RUS: Adguard Russian Filter",
+        "group": "regions",
+        "homeURL": "https://filters.adtidy.org/extension/ublock/filters/1.txt"
+    },
+    "TUR": {
+        "off": true,
+        "title": "TUR: Adguard Turkish Filter",
+        "group": "regions",
+        "homeURL": "https://filters.adtidy.org/extension/ublock/filters/13.txt"
+    }
+}

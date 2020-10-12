@@ -1,0 +1,542 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "बदल लागू करा"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "निर्यात करा"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "my-ublock-static-filters_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored.",
+      "message": "प्रति ओळ एक फिल्टर. फिल्टर एक साधे होस्ट नावाचा असू शकतो, किंवा एक अद्ब्लोक प्लस सुसंगत फिल्टर असू शकतो. ओळी सह प्रिफिक्स &lsquo;!&rsquo; कढे दुर्लक्ष केले जाईल."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "आयात आणि समावेश करा"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "आपले फिल्टर"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "बदल लागू करा"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "English: Auto-update filter lists.",
+      "message": "स्वयं-अद्यतन फिल्टर यादी."
+   },
+   "3pExternalListNew": {
+      "description": "English: new version available",
+      "message": "नवीन आवृत्ती उपलब्ध आहे"
+   },
+   "3pExternalListObsolete": {
+      "description": "English: outdated",
+      "message": "कालबाह्य"
+   },
+   "3pExternalListPurge": {
+      "description": "English: purge cache",
+      "message": " कॅशे साफ करा"
+   },
+   "3pExternalListsApply": {
+      "description": "English: Parse",
+      "message": "लागू करा"
+   },
+   "3pExternalListsHint": {
+      "description": "English: One URL per line. Lines prefixed with &lsquo;!&rsquo; will be ignored. Invalid URLs will be silently ignored.",
+      "message": "प्रति ओळ एक युआरएल. ओळी सह प्रिफिक्स &lsquo;!&rsquo; कढे दुर्लक्ष केले जाईल. अवैध युआरएल शांतपणे दुर्लक्ष केले जाईल."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "जाहिराती"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "सानुकूल"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "मालवेअर डोमेन"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "बहुउद्देशीय"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "गोपनीयता"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "विभाग , भाषा"
+   },
+   "3pGroupSocial": {
+      "description": "English: Social",
+      "message": "सामाजिक"
+   },
+   "3pLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Last update: {{ago}}"
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "उअवरोधित होस्ट यांची सूची"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "English: {{used}} used out of {{total}}",
+      "message": "{{used}} वापरले {{total}} पैकी"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "English: {{netFilterCount}} network filters ＋ {{cosmeticFilterCount}} cosmetic filters from:",
+      "message": "{{netFilterCount}} नेटवर्क फिल्टर ＋ {{cosmeticFilterCount}} उटणे फिल्टर :"
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "तृतीय-पक्ष फिल्टर"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "English: see English messages.json",
+      "message": "\u003Cp>हा पर्याय \u003Ca href=\"https://adblockplus.org/en/faq_internal#elemhide\">अद्ब्लोक प्लस सुसंगत &ldquo;घटक लपवणारे&rdquo; फिल्टर\u003C/a>चे विश्लेषण आणि अंमलबजावणी सक्षम करतो. हे फिल्टर मूलत: उटणे आहेत, ते वेब पृष्ठावर घटक लपवतात जें व्हिज्युअल उपद्रव असल्याचे मानण्यात येतात आणि जे निव्वळ विनंती-आधारित फिल्टरिंग इंजिनद्वारे अवरोधित करणे शक्य नाही.\u003C/p>\u003Cp>हे वैशिष्ट्य सक्षम केले तर\u003Ci>म्यूब्लॉकचे\u003C/i> मेमरी पावलाचा ठसा वाढतो.\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "उटणे फिल्टरना विश्लेषित करा आणि त्यांची अंमलबजावणी करा."
+   },
+   "3pPurgeAll": {
+      "description": "English: Purge all caches",
+      "message": "सर्व कॅशे साफ करा"
+   },
+   "3pUpdateNow": {
+      "description": "English: Update now",
+      "message": "आता अद्यतनित करा"
+   },
+   "aboutBackupDataButton": {
+      "description": "English: Backup to file",
+      "message": "फाइल वर बॅकअप करा..."
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "my-ublock-backup_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "English: Change log",
+      "message": "बदल नोंदी"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "स्त्रोत कोड (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "सहभागी"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "माहिती"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "मुळापासून सुरू करा..."
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "आपले सर्व सेटिंग्ज पुसले जातील, आणि म्यूब्लॉक रीस्टार्ट होईल .\n\nम्यूब्लॉक ला फॉक्टोरी सेटिंग्ज ला रीसेट करावे का?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "फाइल पासून पुनर्संचयित करा..."
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "आपले सर्व सेटिंग्ज ना खोडून {{time}} चा बॅकअप डेटा वापरला जाईल, आणि म्यूब्लॉक रीस्टार्ट होईल.\n\nसर्व विद्यमान सेटिंग्ज ना खोडून बॅकअप डेटा वापरावे का?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "The data could not be read or is invalid"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on Github",
+      "message": "Wiki"
+   },
+   "dashboardName": {
+      "description": "English: uBlock — Dashboard",
+      "message": "म्यूब्लॉक — डैशबोर्ड"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "Go back"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "Close this window"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "Permanently"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "Temporarily"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "Disable strict blocking for {{hostname}}"
+   },
+   "docblockedPrompt1": {
+      "description": "English: uBlock has prevented the following page from loading:",
+      "message": "uBlock has prevented the following page from loading:"
+   },
+   "docblockedPrompt2": {
+      "description": "English: Because of the following filter",
+      "message": "Because of the following filter"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} days ago"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} hours ago"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} minutes ago"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "a day ago"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "an hour ago"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "a minute ago"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: unable to connect to {{url}}",
+      "message": "{{url}} ला कनेक्ट करण्यात अक्षम"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "म्यूब्लॉक"
+   },
+   "extShortDesc": {
+      "description": "this will be in the chrome web store: must be 132 characters or less",
+      "message": "शेवटी, एक कार्यक्षम ब्लॉकर क्रोमियम आधारित ब्राउझरांसाठी. सीपीयू आणि मेमरी वर सोपे जातो."
+   },
+   "extShortName": {
+      "description": "extension short name.",
+      "message": "uBlock"
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock (off)'",
+      "message": "off"
+   },
+   "logAllowedRequestsEmpty": {
+      "description": "English: No non-blocked requests logged for this page",
+      "message": "या पृष्ठावर कोणतेही न-अवरोधित विनंत्या लॉग होत नाही"
+   },
+   "logAllowedRequestsHeader": {
+      "description": "English: Allowed requests",
+      "message": "अनुमत विनंत्या"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "Behind the scene"
+   },
+   "logBlockedRequestsEmpty": {
+      "description": "English: No blocked requests logged for this page",
+      "message": "या पृष्ठावर कोणतेही अवरोधित विनंत्या लॉग होत नाही"
+   },
+   "logBlockedRequestsHeader": {
+      "description": "English: Blocked requests",
+      "message": "अवरोधित विनंत्या"
+   },
+   "logFilterPrompt": {
+      "description": "English: filter log entries",
+      "message": "filter log entries"
+   },
+   "logMaxEntriesTip": {
+      "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log",
+      "message": "Maximum number of log entries"
+   },
+   "logNetRequestsHelp": {
+      "description": "English: see _locales/en/messages.log",
+      "message": "हा पर्याय सक्षम केला, तर आपण नेटवर्क विनंत्यांची तपशील यांची तपासणी घेऊ शकतात. नेटवर्क विनंत्यांच्या लॉगिंग ने म्यूब्लॉकच्या स्मृती पावलाचा ठसा वाढतो. अनेक वापरकर्ते हे वैशिष्ट्य न वापरणार असल्याने ते मुलभूतरित्या अकार्यान्वीत केले आहे."
+   },
+   "logNetRequestsPrompt": {
+      "description": "English: Enable the logging of network requests",
+      "message": "नेटवर्क विनंत्या लॉगिंग सक्षम करा"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "डोमेन"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "फिल्टर"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "प्रकार"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "यूआरएल"
+   },
+   "pickerContextMenuEntry": {
+      "description": "English: Block element",
+      "message": "घटक अवरोधित करा"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "उटणे फिल्टर"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "Ctrl - क्लिक करा"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "निर्माण करा"
+   },
+   "pickerNetFilters": {
+      "description": "English: Net filters",
+      "message": "नेट फिल्टर"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "निवडा"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "बाहेर पडा"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "1st-party scripts"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "3rd-party"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "3rd-party frames"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "3rd-party scripts"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "all"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "या पृष्ठावर"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "विनंत्या अवरोधित"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "स्थापने पासून"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 or 13%",
+      "message": "{{count}} किंवा {{percent}}%"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} out of {{total}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "domains connected"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "images"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "inline scripts"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "किंवा"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock for this site.\n\nCtrl+click: disable uBlock only on this page.",
+      "message": "क्लिक करा : या साइटसाठी म्यूब्लॉक अक्षम/सक्षम.\n\nCtrl+क्लिक करा: फक्त या पृष्ठावर म्यूब्लॉक अक्षम."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "डॅशबोर्ड उघडण्यासाठी क्लिक करा"
+   },
+   "popupTipLog": {
+      "description": "English: Go to request log",
+      "message": "विनंती लॉग ला जा"
+   },
+   "popupTipNoPopups": {
+      "description": "English: No popups for this site",
+      "message": "No popups for this site"
+   },
+   "popupTipNoStrictBlocking": {
+      "description": "English: No strict blocking for this site",
+      "message": "No strict blocking for this site"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "घटक निवडक मोड प्रविष्ट करा"
+   },
+   "rateus": {
+      "description": "English: Rate Us!",
+      "message": "Rate Us!"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "Commit"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "my-ublock-dynamic-rules_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Edit"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Discard"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Save"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "Export to file"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "Rule syntax: \u003Ccode>source destination type action\u003C/code> (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Dynamic-filtering:-rule-syntax'>full documentation\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "List of your dynamic filtering rules."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "Import from file..."
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "My rules"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "Permanent rules"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "Revert"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "Temporary rules"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "English: ",
+      "message": "I am an advanced user (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Advanced-Mode'>Required reading\u003C/a>)"
+   },
+   "settingsAllowUserStats": {
+      "description": "English: Allow uBlock to collect anonymous ping and usage data.",
+      "message": "Allow uBlock to collect anonymous ping and usage data."
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "अवरोधित घटकाचे प्लेसहोल्डर लपवा"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "जेथे योग्य तेथे संदर्भ मेनू याचा वापर करा"
+   },
+   "settingsExperimentalPrompt": {
+      "description": "English: Enable experimental features",
+      "message": "प्रायोगिक वैशिष्ट्ये सक्षम करा"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "अवरोधित विनंत्यांची संख्या चिन्हावर दाखवा"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "Last backup:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "Last restore:"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "सेटिंग्ज"
+   },
+   "settingsStorageUsed": {
+      "description": "English: Storage used: {{}} bytes",
+      "message": "Storage used: {{value}} bytes"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "Show Dashboard"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Network Request Log",
+      "message": "Show Network Request Log"
+   },
+   "statsPageName": {
+      "description": "Title for the network request log window",
+      "message": "uBlock — Network request log"
+   },
+   "subscriberConfirm": {
+      "description": "English: The message seen by the user to confirm subscription to a ABP filter list",
+      "message": "uBlock: Add the following URL to your custom filter lists?\n\nTitle: \"{{title}}\"\nURL: {{url}}"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "बदल लागू करा"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "निर्यात करा"
+   },
+   "whitelistExportFilename": {
+      "description": "English: my-ublock-whitelist_{{datetime}}.txt",
+      "message": "my-ublock-whitelist_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "आयात आणि समावेश करा"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "श्वेतसूची"
+   },
+   "whitelistPrompt": {
+      "description": "English: Your list of host names for which uBlock will be disabled. One host name per line. Invalid host names will be silently ignored.",
+      "message": "आपली होस्ट नावांची यादी ज्याचासाठी म्यूब्लॉक अक्षम केले जाईल. प्रति ओळ एक प्रविष्टी. अवैध होस्ट नावांकडे शांतपणे दुर्लक्ष केले जाईल."
+   }
+}

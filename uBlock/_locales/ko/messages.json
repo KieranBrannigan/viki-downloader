@@ -1,0 +1,542 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "변경사항 적용"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "내보내기"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "ublock-고정필터_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored.",
+      "message": "한 줄에 한 개의 필터를 입력하세요. 필터는 순수 호스트이름, 혹은 Adblock Plus-호환 필터가 될 수 있습니다. 시작 부분이 &lsquo;!&rsquo; 로 시작되면 무시됩니다."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "가져오기 및 추가하기"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "내 필터"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "변경사항 적용"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "English: Auto-update filter lists.",
+      "message": "필터 목록 자동 업데이트"
+   },
+   "3pExternalListNew": {
+      "description": "English: new version available",
+      "message": "최신 버전 존재"
+   },
+   "3pExternalListObsolete": {
+      "description": "English: outdated",
+      "message": "구버전"
+   },
+   "3pExternalListPurge": {
+      "description": "English: purge cache",
+      "message": "캐시 제거"
+   },
+   "3pExternalListsApply": {
+      "description": "English: Parse",
+      "message": "분석"
+   },
+   "3pExternalListsHint": {
+      "description": "English: One URL per line. Lines prefixed with &lsquo;!&rsquo; will be ignored. Invalid URLs will be silently ignored.",
+      "message": "한 줄에 한 개의 URL을 입력하세요. 시작 부분이 &lsquo;!&rsquo; 로 시작되면 무시됩니다. 존재하지 않는 URL은 자동으로 무시됩니다."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "광고"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "사용자 지정"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "멀웨어 도메인"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "다목적"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "개인정보"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "지역, 언어"
+   },
+   "3pGroupSocial": {
+      "description": "English: Social",
+      "message": "소셜"
+   },
+   "3pLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "마지막 업데이트: {{ago}}"
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "차단된 호스트 목록"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "English: {{used}} used out of {{total}}",
+      "message": "{{total}}개 중 {{used}}개 사용 중"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "English: {{netFilterCount}} network filters ＋ {{cosmeticFilterCount}} cosmetic filters from:",
+      "message": "{{netFilterCount}} 네트워크 필터 ＋ {{cosmeticFilterCount}} 시각적 필터:"
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "보조 필터"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "English: see English messages.json",
+      "message": "\u003Cp>이 옵션은 \u003Ca href=\"https://adblockplus.org/en/faq_internal#elemhide\">Adblock Plus-호환 &ldquo;구성 요소 감추기&rdquo; 필터\u003C/a>를 분석하고 적용하는 것을 활성화합니다. 이 필터는 기본적으로 웹 페이지에서 시각적 방해 요소들을 숨기는 역할을 하며, 네트워크 요청에 기반한 필터링 엔진에서 차단될 수 없습니다.\u003C/p>\u003Cp>이 기능을 활성화하면 \u003Ci>uBlock\u003C/i>의 메모리 사용량이 늘어납니다.\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "시각적 필터 분석 및 적용"
+   },
+   "3pPurgeAll": {
+      "description": "English: Purge all caches",
+      "message": "모든 캐시 제거"
+   },
+   "3pUpdateNow": {
+      "description": "English: Update now",
+      "message": "지금 업데이트"
+   },
+   "aboutBackupDataButton": {
+      "description": "English: Backup to file",
+      "message": "파일로 백업하기"
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "ublock-백업_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "English: Change log",
+      "message": "변경사항"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "소스 코드 (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "기여자"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "정보"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "기본 설정으로 초기화..."
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "당신의 모든 설정이 제거되며, uBlock이 재시작됩니다.\n\nuBlock의 설정을 처음 설정으로 초기화하시겠습니까?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "파일로부터 복원하기..."
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "모든 당신의 설정은 {{time}}에 백업된 데이터에 덮어씌워지며, uBlock이 재시작됩니다.\n\n모든 존재하는 설정을 백업 데이터로 덮어씌우시겠습니까?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "데이터를 읽을 수 없거나 잘못되었습니다."
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on Github",
+      "message": "위키"
+   },
+   "dashboardName": {
+      "description": "English: uBlock — Dashboard",
+      "message": "uBlock — 대쉬보드"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "돌아가기"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "이 창을 닫기"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "영구적 차단"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "일시적 차단"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "{{hostname}}에서 강화된 차단기능 끄기"
+   },
+   "docblockedPrompt1": {
+      "description": "English: uBlock has prevented the following page from loading:",
+      "message": "uBlock이 다음 페이지를 로드하는것을 방지했습니다:"
+   },
+   "docblockedPrompt2": {
+      "description": "English: Because of the following filter",
+      "message": "다음 필터로 인해 방지됨"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} 일 전"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} 시간 전"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} 분 전"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "1 일 전"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "1 시간 전"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "1 분 전"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: unable to connect to {{url}}",
+      "message": "{{url}}에 연결할 수 없습니다."
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock"
+   },
+   "extShortDesc": {
+      "description": "this will be in the chrome web store: must be 132 characters or less",
+      "message": "이 확장기능은 효율적인 차단기입니다. CPU와 메모리에 주는 부담이 적습니다."
+   },
+   "extShortName": {
+      "description": "extension short name.",
+      "message": "uBlock"
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock (off)'",
+      "message": "끄기"
+   },
+   "logAllowedRequestsEmpty": {
+      "description": "English: No non-blocked requests logged for this page",
+      "message": "이 페이지에 차단되지 않은 요청 로그가 없음"
+   },
+   "logAllowedRequestsHeader": {
+      "description": "English: Allowed requests",
+      "message": "허용된 요청"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "숨겨진 구성 요소"
+   },
+   "logBlockedRequestsEmpty": {
+      "description": "English: No blocked requests logged for this page",
+      "message": "이 페이지에서 차단된 요청 로그가 없음"
+   },
+   "logBlockedRequestsHeader": {
+      "description": "English: Blocked requests",
+      "message": "차단된 요청"
+   },
+   "logFilterPrompt": {
+      "description": "English: filter log entries",
+      "message": "필터 로그 항목"
+   },
+   "logMaxEntriesTip": {
+      "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log",
+      "message": "로그 항목의 최대 갯수"
+   },
+   "logNetRequestsHelp": {
+      "description": "English: see _locales/en/messages.log",
+      "message": "이 옵션을 활성화하면 네트워크 요청들의 세부정보를 검사할 수 있습니다. 네트워크 요청의 로깅은 uBlock의 메모리 사용량을 늘어나게 합니다.\n많은 사용자들은 이 기능을 사용하지 않기 때문에, 기본적으로 비활성화 되어 있습니다."
+   },
+   "logNetRequestsPrompt": {
+      "description": "English: Enable the logging of network requests",
+      "message": "네트워크 요청들에 대한 로깅 활성화"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "도메인"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "필터"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "유형"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "pickerContextMenuEntry": {
+      "description": "English: Block element",
+      "message": "구성 요소 차단"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "시각적 필터"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "클릭, Ctrl-클릭"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "생성"
+   },
+   "pickerNetFilters": {
+      "description": "English: Net filters",
+      "message": "넷 필터"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "선택"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "종료"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "주 스크립트"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "보조 필터"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "보조 프레임"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "보조 스크립트"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "전체"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "이 페이지에서"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "요청 차단됨"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "설치된 이후"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 or 13%",
+      "message": "{{count}}개 혹은 {{percent}}%"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{total}}개 중 {{count}}개"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "도메인 연결됨"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "이미지"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "인라인 스크립트"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "또는"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock for this site.\n\nCtrl+click: disable uBlock only on this page.",
+      "message": "클릭: 이 사이트에서 uBlock을 켜고 끕니다.\n\nCtrl+클릭: 이 페이지에서만 uBlock을 끕니다."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "클릭하여 대쉬보드 열기"
+   },
+   "popupTipLog": {
+      "description": "English: Go to request log",
+      "message": "네트워크 요청 로그로 이동"
+   },
+   "popupTipNoPopups": {
+      "description": "English: No popups for this site",
+      "message": "이 사이트에서 팝업 차단"
+   },
+   "popupTipNoStrictBlocking": {
+      "description": "English: No strict blocking for this site",
+      "message": "이 사이트에서 강화된 차단기능 끄기"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "구성 요소 선택기 모드로 진입"
+   },
+   "rateus": {
+      "description": "English: Rate Us!",
+      "message": "Rate Us!"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "제출"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "ublock-동적규칙_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "편집"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "취소"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "저장"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "파일로 내보내기..."
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "규칙 문법: \u003Ccode>소스 페이지, 필터링 대상, 필터링할 타입, 적용할 조치\u003C/code> (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Dynamic-filtering:-rule-syntax'>전체 설명서\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "당신의 동적 필터링 규칙 목록입니다."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "파일로부터 불러오기..."
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "내 규칙"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "영구 규칙"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "되돌리기"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "임시 규칙"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "English: ",
+      "message": "고급 사용자 모드 (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Advanced-Mode'>필수로 읽어보세요.\u003C/a>)"
+   },
+   "settingsAllowUserStats": {
+      "description": "English: Allow uBlock to collect anonymous ping and usage data.",
+      "message": "Allow uBlock to collect anonymous ping and usage data."
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "차단된 구성 요소의 자리 감추기"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "컨텍스트 메뉴를 상황에 맞게 사용"
+   },
+   "settingsExperimentalPrompt": {
+      "description": "English: Enable experimental features",
+      "message": "실험 기능 활성화 (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Experimental-features'>자세히\u003C/a>)"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "차단된 요청 개수를 아이콘에 표시"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "최근 백업:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "최근 복원:"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "설정"
+   },
+   "settingsStorageUsed": {
+      "description": "English: Storage used: {{}} bytes",
+      "message": "스토리지 사용량: {{value}} 바이트"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "대쉬보드 보기"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Network Request Log",
+      "message": "네트워크 요청 로그 보기"
+   },
+   "statsPageName": {
+      "description": "Title for the network request log window",
+      "message": "uBlock — 네트워크 요청 로그"
+   },
+   "subscriberConfirm": {
+      "description": "English: The message seen by the user to confirm subscription to a ABP filter list",
+      "message": "uBlock: 선택한 URL을 사용자 지정 필터 목록에 추가하시겠습니까?\n\n제목: \"{{title}}\"\nURL: {{url}}"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "변경사항 적용"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "내보내기"
+   },
+   "whitelistExportFilename": {
+      "description": "English: my-ublock-whitelist_{{datetime}}.txt",
+      "message": "ublock-제외목록_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "가져오기 및 추가하기"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "제외 목록"
+   },
+   "whitelistPrompt": {
+      "description": "English: Your list of host names for which uBlock will be disabled. One host name per line. Invalid host names will be silently ignored.",
+      "message": "당신의 목록에 있는 호스트들은 µBlock에서 비활성화됩니다. 한 줄에 한 개씩 입력하세요. 존재하지 않는 호스트는 자동으로 무시됩니다."
+   }
+}

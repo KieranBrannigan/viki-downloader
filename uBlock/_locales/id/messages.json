@@ -1,0 +1,542 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Terapkan perubahan"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "Ekspor"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "my-ublock-static-filters_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored.",
+      "message": "Satu filter per baris. Filter dapat berupa nama host, atau filter yang kompatibel dengan Adblock Plus. Baris yang diawali dengan &lsquo;!&rsquo; akan diabaikan."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "Impor dan tambahkan"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Filter Saya"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Terapkan perubahan"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "English: Auto-update filter lists.",
+      "message": "Pembaruan otomatis daftar filter."
+   },
+   "3pExternalListNew": {
+      "description": "English: new version available",
+      "message": "versi baru tersedia"
+   },
+   "3pExternalListObsolete": {
+      "description": "English: outdated",
+      "message": "usang"
+   },
+   "3pExternalListPurge": {
+      "description": "English: purge cache",
+      "message": "bersihkan tembolok"
+   },
+   "3pExternalListsApply": {
+      "description": "English: Parse",
+      "message": "Baca"
+   },
+   "3pExternalListsHint": {
+      "description": "English: One URL per line. Lines prefixed with &lsquo;!&rsquo; will be ignored. Invalid URLs will be silently ignored.",
+      "message": "Satu URL per baris. Baris yang diawali dengan &lsquo;!&rsquo; akan diabaikan. URL yang tidak valid akan diabaikan tanpa peringatan."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "Iklan"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "Tersesuai"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "Domain malware"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "Serbaguna"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "Privasi"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "Wilayah, bahasa"
+   },
+   "3pGroupSocial": {
+      "description": "English: Social",
+      "message": "Sosial"
+   },
+   "3pLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Pembaharuan terakhir: {{ago}}"
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "Daftar host yang diblokir"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "English: {{used}} used out of {{total}}",
+      "message": "{{used}} digunakan dari {{total}}"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "English: {{netFilterCount}} network filters ＋ {{cosmeticFilterCount}} cosmetic filters from:",
+      "message": "{{netFilterCount}} filter jaringan + {{cosmeticFilterCount}} filter tampilan dari:"
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Filter Pihak ke-3"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "English: see English messages.json",
+      "message": "\u003Cp>Opsi ini mengaktifkan pembacaan dan menjalankan \u003Ca href=\"https://adblockplus.org/en/faq_internal#elemhide\">filter &ldquo;penyembunyian elemen&rdquo; yang kompatibel dengan Adblock Plus\u003C/a>. Filter ini pada dasarnya hanya sekedar filter tampilan, berfungsi untuk menyembunyikan elemen di laman web yang dianggap sebagai gangguan visual, dan tidak dapat diblokir oleh filter berbasis permintaan jaringan.\u003C/p>\u003Cp>Mengaktifkan fitur ini akan meningkatkan penggunaan memori \u003Ci>uBlock\u003C/i>.\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "Baca dan jalankan filter tampilan."
+   },
+   "3pPurgeAll": {
+      "description": "English: Purge all caches",
+      "message": "Bersihkan semua tembolok"
+   },
+   "3pUpdateNow": {
+      "description": "English: Update now",
+      "message": "Perbarui sekarang"
+   },
+   "aboutBackupDataButton": {
+      "description": "English: Backup to file",
+      "message": "Cadangkan ke berkas"
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "my-ublock-backup_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "English: Change log",
+      "message": "Catatan perubahan"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Kode sumber (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Kontributor"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Tentang"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "Kembalikan ke pengaturan bawaan..."
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Semua pengaturan anda akan dihapus, dan uBlock akan memulai ulang.\n\nKembalikan uBlock ke pengaturan bawaan?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "Pulihkan dari berkas..."
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Semua pengaturan anda akan ditimpa dengan data yang dicadangkan pada {{time}}, dan uBlock akan memulai ulang.\n\nTimpa semua pengaturan yang ada dengan data cadangan?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "Data tidak dapat dibaca atau tidak valid"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on Github",
+      "message": "Wiki"
+   },
+   "dashboardName": {
+      "description": "English: uBlock — Dashboard",
+      "message": "uBlock — Dasbor"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "Kembali"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "Tutup jendela ini"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "Permanen"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "Sementara"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "Nonaktifkan pemblokiran ketat untuk {{hostname}}"
+   },
+   "docblockedPrompt1": {
+      "description": "English: uBlock has prevented the following page from loading:",
+      "message": "uBlock telah mencegah laman berikut dimuat:"
+   },
+   "docblockedPrompt2": {
+      "description": "English: Because of the following filter",
+      "message": "Disebabkan oleh filter berikut"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "Entri ini harus menjadi yang terakhir"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} hari yang lalu"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} jam yang lalu"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} menit yang lalu"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "satu hari yang lalu"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "satu jam yang lalu"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "satu menit yang lalu"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: unable to connect to {{url}}",
+      "message": "Tidak dapat terhubung ke {{url}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock"
+   },
+   "extShortDesc": {
+      "description": "this will be in the chrome web store: must be 132 characters or less",
+      "message": "Akhirnya, pemblokir iklan yang efisien. Ringan penggunaan CPU dan memori."
+   },
+   "extShortName": {
+      "description": "extension short name.",
+      "message": "uBlock"
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock (off)'",
+      "message": "mati"
+   },
+   "logAllowedRequestsEmpty": {
+      "description": "English: No non-blocked requests logged for this page",
+      "message": "Permintaan yang tidak diblokir di laman ini tidak ada yang di catat"
+   },
+   "logAllowedRequestsHeader": {
+      "description": "English: Allowed requests",
+      "message": "Permintaan diizinkan"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "Di balik layar"
+   },
+   "logBlockedRequestsEmpty": {
+      "description": "English: No blocked requests logged for this page",
+      "message": "Permintaan yang diblokir di laman ini tidak ada yang dicatat"
+   },
+   "logBlockedRequestsHeader": {
+      "description": "English: Blocked requests",
+      "message": "Permintaan diblokir"
+   },
+   "logFilterPrompt": {
+      "description": "English: filter log entries",
+      "message": "saring entri catatan"
+   },
+   "logMaxEntriesTip": {
+      "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log",
+      "message": "Jumlah maximum entri catatan"
+   },
+   "logNetRequestsHelp": {
+      "description": "English: see _locales/en/messages.log",
+      "message": "Jika ingin, Anda dapat memeriksa secara rinci permintaan jaringan dengan mengaktifkan opsi ini. Pencatatan permintaan jaringan akan meningkatkan penggunaan memori uBlock. Karena kebanyakan pengguna tidak akan pernah menggunakan fitur ini, secara bawaan fitur ini dinonaktifkan."
+   },
+   "logNetRequestsPrompt": {
+      "description": "English: Enable the logging of network requests",
+      "message": "Aktifkan pencatatan permintaan jaringan"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "Domain"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "Filter"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "Jenis"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "pickerContextMenuEntry": {
+      "description": "English: Block element",
+      "message": "Blok elemen"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "Filter tampilan"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "Klik, Ctrl-klik"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "Buat"
+   },
+   "pickerNetFilters": {
+      "description": "English: Net filters",
+      "message": "Filter jaringan"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "Pilih"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "Keluar"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "skrip pihak pertama"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "pihak ke-3"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "frame pihak ke-3"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "skrip pihak ke-3"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "semua"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "di laman ini"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "permintaan diblokir"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "sejak dipasang"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 or 13%",
+      "message": "{{count}} atau {{percent}}%"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} dari {{total}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "domain tersambung"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "gambar"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "skrip inline"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "atau"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock for this site.\n\nCtrl+click: disable uBlock only on this page.",
+      "message": "Klik: nonaktifkan/aktifkan uBlock untuk situs ini.\n\nCtrl+klik: nonaktifkan uBlock hanya di laman ini."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Klik untuk membuka dasbor"
+   },
+   "popupTipLog": {
+      "description": "English: Go to request log",
+      "message": "Pergi ke catatan permintaan"
+   },
+   "popupTipNoPopups": {
+      "description": "English: No popups for this site",
+      "message": "Tidak ada popup untuk situs ini"
+   },
+   "popupTipNoStrictBlocking": {
+      "description": "English: No strict blocking for this site",
+      "message": "Tidak ada pemblokiran ketat untuk situs ini"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "Memasuki mode pemilihan elemen"
+   },
+   "rateus": {
+      "description": "English: Rate Us!",
+      "message": "Rate Us!"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "Tetapkan"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "my-ublock-dynamic-rules_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Sunting"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Batal"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Simpan"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "Ekspor ke berkas"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "Aturan sintaksis: \u003Ccode>sumber tujuan jenis tindakan\u003C/code> (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Dynamic-filtering:-rule-syntax'>dokumentasi lengkap\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "Daftar aturan filter dinamis anda."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "Impor dari berkas..."
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Aturan Saya"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "Aturan permanen"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "Urungkan"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "Aturan sementara"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "English: ",
+      "message": "Saya pengguna tingkat lanjut (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Advanced-Mode'>Bacaan wajib\u003C/a>)"
+   },
+   "settingsAllowUserStats": {
+      "description": "English: Allow uBlock to collect anonymous ping and usage data.",
+      "message": "Allow uBlock to collect anonymous ping and usage data."
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "Sembunyikan tempat elemen yang diblokir"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "Pergunakan menu konteks jika sesuai"
+   },
+   "settingsExperimentalPrompt": {
+      "description": "English: Enable experimental features",
+      "message": "Aktifkan fitur eksperimental (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Experimental-features'>Tentang\u003C/a>)"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "Tampilkan jumlah permintaan yang diblokir pada ikon"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "Pencadangan terakhir:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "Pemulihan terakhir:"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Pengaturan"
+   },
+   "settingsStorageUsed": {
+      "description": "English: Storage used: {{}} bytes",
+      "message": "Penyimpanan terpakai: {{value}} bita"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "Tampilkan Dasbor"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Network Request Log",
+      "message": "Tampilkan Permintaan Catatan Jaringan"
+   },
+   "statsPageName": {
+      "description": "Title for the network request log window",
+      "message": "uBlock — Catatan Permintaan Jaringan"
+   },
+   "subscriberConfirm": {
+      "description": "English: The message seen by the user to confirm subscription to a ABP filter list",
+      "message": "uBlock: Tambahkan URL berikut ke daftar filter kustom Anda ?\n\nJudul: \"{{title}}\"\nURL: {{url}}"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "Terapkan perubahan"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "Ekspor"
+   },
+   "whitelistExportFilename": {
+      "description": "English: my-ublock-whitelist_{{datetime}}.txt",
+      "message": "my-ublock-whitelist_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "Impor dan tambahkan"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Daftar Putih"
+   },
+   "whitelistPrompt": {
+      "description": "English: Your list of host names for which uBlock will be disabled. One host name per line. Invalid host names will be silently ignored.",
+      "message": "Daftar nama host yang mana uBlock akan dinonaktifkan. Satu entri per baris. Nama host yang tidak valid akan diabaikan tanpa peringatan."
+   }
+}

@@ -1,0 +1,542 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "మార్పులను భద్రపరచు"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "ఎగుమతి"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "my-ublock-static-filters_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "English: One filter per line. A filter can be a plain hostname, or an Adblock Plus-compatible filter. Lines prefixed with &lsquo;!&rsquo; will be ignored.",
+      "message": "ఒక్కో పంక్తిలో ఒక వడపోత నమోదు. పేర్కొనబడే వడపోత, కేవలం హోస్టుపేరు లేదా Adblock Plusకి అనువైన వడపోత కావొచ్చు. పంక్తిలో మొదలు  &lsquo;!&rsquo; ఉన్నచో అది పరిగణలోకి తీసుకొబడదు."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "దిగుమతిచేసి పోడిగించుము"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "నా వడపోతలు"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "మార్పులను భద్రపరచు"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "English: Auto-update filter lists.",
+      "message": "వడపోత జాబితాలను స్వయంచాలకంగా నవీకరించుము."
+   },
+   "3pExternalListNew": {
+      "description": "English: new version available",
+      "message": "నవీకరణ అందుబాటులో ఉంది"
+   },
+   "3pExternalListObsolete": {
+      "description": "English: outdated",
+      "message": "పాతబడింది"
+   },
+   "3pExternalListPurge": {
+      "description": "English: purge cache",
+      "message": "తాత్కాలిక నిలువలను త్యజించు"
+   },
+   "3pExternalListsApply": {
+      "description": "English: Parse",
+      "message": "పదనిరూపణ"
+   },
+   "3pExternalListsHint": {
+      "description": "English: One URL per line. Lines prefixed with &lsquo;!&rsquo; will be ignored. Invalid URLs will be silently ignored.",
+      "message": "ఒక్కో పంక్తిలో ఒక URL. పంక్తిలో మొదలు &lsquo;!&rsquo; ఉన్నచో అది పరిగనించబడదు. చెల్లని URLలు మౌనంగా విస్మరించబడుతాయి."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "ప్రకటనలు"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "సొంత నిర్దేషణ"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "మాల్వేర్ డొమైన్లు"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "బహూలార్ధక"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "గోప్యత"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "ప్రాంతాలు, భాషలు"
+   },
+   "3pGroupSocial": {
+      "description": "English: Social",
+      "message": "సాంఘికం"
+   },
+   "3pLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "గత నవీకరణ: {{ago}}"
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "నిరోధించబడిన చిరునామాల జాబితా"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "English: {{used}} used out of {{total}}",
+      "message": "{{total}} లో వాడుతున్నది {{used}}"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "English: {{netFilterCount}} network filters ＋ {{cosmeticFilterCount}} cosmetic filters from:",
+      "message": "{{netFilterCount}} network filters ＋ {{cosmeticFilterCount}} cosmetic filters from:"
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "ఇతర మూలాల నుండి పొందిన వడపోతలు"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "English: see English messages.json",
+      "message": "\u003Cp>This option enables the parsing and enforcing of \u003Ca href=\"https://adblockplus.org/en/faq_internal#elemhide\">Adblock Plus-compatible &ldquo;element hiding&rdquo; filters\u003C/a>. These filters are essentially cosmetic, they serve to hide elements in a web page which are deemed to be a visual nuisance, and which can't be blocked by the net request-based filtering engine.\u003C/p>\u003Cp>Enabling this feature increases \u003Ci>uBlock\u003C/i>'s memory footprint.\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "Parse and enforce cosmetic filters."
+   },
+   "3pPurgeAll": {
+      "description": "English: Purge all caches",
+      "message": "తాత్కాలిక నిలువలను త్యజించు"
+   },
+   "3pUpdateNow": {
+      "description": "English: Update now",
+      "message": "జాబితా నవీకరించుము"
+   },
+   "aboutBackupDataButton": {
+      "description": "English: Backup to file",
+      "message": "ఫైల్ లో భద్రపరచు"
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "my-ublock-backup_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "English: Change log",
+      "message": "మార్పుల సంచిక"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "మూలం (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "ప్రాజెక్ట్కు సహాయ పడిన వారు"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "మా గురించి"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "సంస్థాపన ఐచ్చికాలను పునరుద్దరించు..."
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "ఐచ్చికాలలో మీరు చేసిన మార్పులన్నీ తొలగించనా పిమ్మట uబ్లాక్ పునఃప్రారంభిన్చాబాడును.\n\nమరి సంస్థాపన ఐచ్చికాలను పునరుద్ధరించాలా?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "ఫైల్ నుండి పునరుద్దరించు..."
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "మీరు పేర్కొన్న ఐచ్చిక్కాలన్ని {{time}}నకు తీసుకున్న నకలు డేటాతో తిరగారాయబడుతాయి, ఆ పిమ్మట uబ్లాక్ పునఃప్రారంభమవుతుంది.\n\nమీ ఐచ్చికాలను తిరగరాయుట మీకు సమ్మతమేనా?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "డేటాను చదవడంలో లోపం సంభవించినది(డేటా పాడైవుంది లేదా అందుబాటులో లేదు)"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on Github",
+      "message": "వికి"
+   },
+   "dashboardName": {
+      "description": "English: uBlock — Dashboard",
+      "message": "uBlock — నియంత్రణా వేదిక"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "వెనక్కి వెళ్ళు"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "విండోని ముయి"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "శాశ్వతంగా"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "తాత్కాలికంగా"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "{{hostname}} లొ నిరోధకాన్ని ఖచ్చితంగా అమలు చెయ్యొద్దు"
+   },
+   "docblockedPrompt1": {
+      "description": "English: uBlock has prevented the following page from loading:",
+      "message": "ఈ తరువాయి పేజిని uBlock బ్రౌజరులోకి ఎక్కిన్చనివ్వలేదు:"
+   },
+   "docblockedPrompt2": {
+      "description": "English: Because of the following filter",
+      "message": "ఈది ఈ వడపోత వలన తీసుకోబడిన చర్య"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "ఇది అంతిమంగా వుండాల్సిన నమోదు"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} రోజుల క్రితం"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} గంటల క్రితం"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} నిమిషాల క్రితం"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "ఒక రోజు క్రితం"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "ఒక గంట క్రితం"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "ఒక నిమిషం క్రితం"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: unable to connect to {{url}}",
+      "message": "{{url}}తో అనుసంధానం విఫలమైనది"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock"
+   },
+   "extShortDesc": {
+      "description": "this will be in the chrome web store: must be 132 characters or less",
+      "message": "మొత్తానికి RAM మరియు CPU పై తేలికయిన, ఒక సమర్థవంతమైన నిరోధిని."
+   },
+   "extShortName": {
+      "description": "extension short name.",
+      "message": "uBlock"
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock (off)'",
+      "message": "అచేతనం"
+   },
+   "logAllowedRequestsEmpty": {
+      "description": "English: No non-blocked requests logged for this page",
+      "message": "ఈ వెబ్ పేజి నుండి అనుమతించబడిన అభ్యర్దనలు వున్నట్టు చిట్టాలొ దాఖలాలు లేవు"
+   },
+   "logAllowedRequestsHeader": {
+      "description": "English: Allowed requests",
+      "message": "అనుమతించబడిన అభ్యర్ధనలు"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "తేర వెనుక"
+   },
+   "logBlockedRequestsEmpty": {
+      "description": "English: No blocked requests logged for this page",
+      "message": "ఈ వెబ్ పేజిలొ అభ్యర్దనలను నిరోధించబడినట్టు దాఖలాలు లేవు"
+   },
+   "logBlockedRequestsHeader": {
+      "description": "English: Blocked requests",
+      "message": "నిరోధించబడిన అభ్యర్ధనలు"
+   },
+   "logFilterPrompt": {
+      "description": "English: filter log entries",
+      "message": "చిట్టాలోని నమోదులను జల్లెడపరచు"
+   },
+   "logMaxEntriesTip": {
+      "description": "Tooltip informaing that the input field is to set the maximum number of entries in the log",
+      "message": "చిట్టాలోని గరిష్ట నమోదుల సంఖ్య"
+   },
+   "logNetRequestsHelp": {
+      "description": "English: see _locales/en/messages.log",
+      "message": "ఈ ఎంపిక ద్వారా మీరు నెట్వర్క్ అభ్యర్దనల గురించి మరిన్ని వివరాలు తెలుసుకోవచ్చు. అయితే ఈ లక్షణం uబ్లాక్ యొక్క మెమరీ వాడుకను రేట్టిస్తుంది. మాములుగా ఈ ఎంపికను ఎవరు వాడారు అందుకే ఇది అప్రమేయంగా అచేతనపరచి వుంటుంది."
+   },
+   "logNetRequestsPrompt": {
+      "description": "English: Enable the logging of network requests",
+      "message": "నెట్వర్క్ అభ్యర్ధనలను చిట్టాలో పొందుపరచుము"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "డొమైన్"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "జల్లెడ"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "రకం"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "pickerContextMenuEntry": {
+      "description": "English: Block element",
+      "message": "దీన్ని నిరోధించు"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "Cosmetic filters"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "క్లిక్, Ctrl+క్లిక్"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "సృష్టించు"
+   },
+   "pickerNetFilters": {
+      "description": "English: Net filters",
+      "message": "నెట్వర్క్ అభ్యర్దన వడపోతలు"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "ఎంచుకోనుము"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "నిశ్క్రమించు"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "సైట్ యొక్క స్క్రిప్ట్స్"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "సైట్-ఏతరుల అంశాలు"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "సైట్-ఏతరుల ఫ్రేమ్స్"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "సైట్-ఏతరుల స్క్రిప్ట్లు"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "అన్ని"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "ఈ వెబ్ పేజిలో"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "నిరోధించబడిన అభ్యర్ధనలు"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "సంస్థాపన నుండి"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 or 13%",
+      "message": "{{count}} లేదా {{percent}}%"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{total}} లో {{count}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "అనుసంధానించబడిన డొమైన్స్"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "చిత్రాలు"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "లోబడిన స్క్రిప్ట్లు"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "లేదా"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock for this site.\n\nCtrl+click: disable uBlock only on this page.",
+      "message": "ఈ సైట్లో uBlockను చేతనపరచడానికి లేదా అచేతనపరచడానికి క్లిక్ చేయండి.\n\nకేవలం ఈ పేజిలో uBlockను అచేతనపరచడానికి Ctrl కీ వొత్తి పట్టుకొని క్లిక్ చేయండి."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "నియంత్రణా పట్టికను తెరచుటకు క్లిక్ చేయండి"
+   },
+   "popupTipLog": {
+      "description": "English: Go to request log",
+      "message": "అభ్యర్ధనల పట్టికను తెరువుము"
+   },
+   "popupTipNoPopups": {
+      "description": "English: No popups for this site",
+      "message": "ఈ వెబ్సైట్ లో పాప్అప్స్ రావు"
+   },
+   "popupTipNoStrictBlocking": {
+      "description": "English: No strict blocking for this site",
+      "message": "ఈ వెబ్సైట్లో అన్ని ఖచ్చితంగా నిరోధించబడవు"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "భాగాలను ఎంచుకొని తొలగించు ప్రక్ర్యియనారంభించు"
+   },
+   "rateus": {
+      "description": "English: Rate Us!",
+      "message": "Rate Us!"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "మార్పులను భద్రపరచు"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "my-ublock-dynamic-rules_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "చక్కదిడ్డుము"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "పారవేయు"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "భద్రపరచు"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "ఫైల్కు ఎగుమతి చేయుము"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "నియమనిర్మాన పద్ధతి: \u003Ccode>మూలం గమ్యం రకం చర్య\u003C/code> (\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Dynamic-filtering:-rule-syntax'>పూర్తి వివరాలు\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "మీ క్రియాశీలక జల్లెడ నియమాల జాబితా."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "ఫైల్ నుండి దిగుమతి చేయుము..."
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "నా నియమాలు"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "శాశ్వత నియమాలు"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "మార్పులను తిరస్కరించు"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "తాత్కాలిక నియమాలు"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "English: ",
+      "message": "నేనొక నిపుణత కలిగిన వినియోగదారున్ని(\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Advanced-Mode'>అయితే ఇదే తప్పనిసరిగా చదవాలి\u003C/a>)"
+   },
+   "settingsAllowUserStats": {
+      "description": "English: Allow uBlock to collect anonymous ping and usage data.",
+      "message": "Allow uBlock to collect anonymous ping and usage data."
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "నిరోధించబడిన అంశాలయోక్క స్థానసంగ్రాహకాలను దాచుము"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "అనువైనచోట్లలో కుడి-క్లిక్ మెనూని ఉపయోగించుము"
+   },
+   "settingsExperimentalPrompt": {
+      "description": "English: Enable experimental features",
+      "message": "ప్రయోగాత్మక సామర్థ్యాల వాడుకను అనుమతించుము(\u003Ca href='https://github.com/uBlockAdmin/uBlock/wiki/Experimental-features'>మరిన్ని వివరాలు\u003C/a>)"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "చిహ్నంపై నిరొధించబడిన అభ్యర్దనల సంఖ్య చూపుము"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "గత నకలు:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "గత పునరుద్ధారణ:"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "ఐచ్చికాలు"
+   },
+   "settingsStorageUsed": {
+      "description": "English: Storage used: {{}} bytes",
+      "message": "వాడుతున్న నిలువల పరిమాణం: {{value}} బైట్స్"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "నియంత్రణా పట్టికను చూపు"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Network Request Log",
+      "message": "నెట్వర్క్ అభ్యర్ధనల చిట్టాను చూపు"
+   },
+   "statsPageName": {
+      "description": "Title for the network request log window",
+      "message": "µబ్లాక్ — నెట్వర్క్ అభ్యర్ధనల పట్టిక"
+   },
+   "subscriberConfirm": {
+      "description": "English: The message seen by the user to confirm subscription to a ABP filter list",
+      "message": "uబ్లాక్: ఈ URLని మీ నిర్దేశిత వడపోత పట్టికకు జతపరచాలా?\n\nశీర్షిక: \"{{title}}\"\nURL: {{url}}"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "మార్పులను భద్రపరచు"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "ఎగుమతి"
+   },
+   "whitelistExportFilename": {
+      "description": "English: my-ublock-whitelist_{{datetime}}.txt",
+      "message": "my-ublock-whitelist_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "దిగుమతిచేసి పోడిగించుము"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "నేను నమ్మే సైట్ల జాబితా"
+   },
+   "whitelistPrompt": {
+      "description": "English: Your list of host names for which uBlock will be disabled. One host name per line. Invalid host names will be silently ignored.",
+      "message": "uBlock అచేతనబడించిన హోస్టూల జాబితా, ఇది మీరు కూర్చినది,. ఒక్కో పంక్తికి ఒక్కో నమోదు. చెల్లని నమోదులు మౌనంగా విస్మరించబడుతాయి."
+   }
+}
