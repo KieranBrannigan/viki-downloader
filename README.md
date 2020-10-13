@@ -1,6 +1,8 @@
 # viki-downloader
 Python selenium scripts for batch downloading subtitles and video files
 
+Requires a python 3 installation to run the files. The only requirements are selenium, which can be installed using pip with the command: `-> python -m pip install selenium`
+
 Link downlaoder:
     Give the url to the viki show. Then click the episodes tab, then click enter to run.
     Will download all the links for the show and export link on each line of txt file.
