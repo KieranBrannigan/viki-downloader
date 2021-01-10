@@ -6,7 +6,7 @@ from subprocess import PIPE, Popen
 
 import requests
 
-def getURL(mpd_file, baseURLs: List[str], quality: str, audio_or_video):
+def getURL(mpd_file, baseURLs: List[str], quality: str, audio_or_video, takeLower):
 
     if audio_or_video == "audio":
         track = "track2"
@@ -19,7 +19,7 @@ def getURL(mpd_file, baseURLs: List[str], quality: str, audio_or_video):
 
     if len(URLs) == 0:
         print(f"Couldn't find that quality version ({quality}) in mpd file: {mpd_file}")
-        if takeLowerQuality:
+        if takeLower:
             print("Trying to find with a lower quality")
             nextLower = qualities.index(quality) - 1
             if nextLower < 0:
@@ -27,7 +27,7 @@ def getURL(mpd_file, baseURLs: List[str], quality: str, audio_or_video):
                 print(f"Couldn't find with quality {quality}. This is the lowest quality we can try. Skipping this file.")
                 return (None, None)
             else:
-                return getURL(mpd_file, baseURLs, qualities[nextLower], audio_or_video)
+                return getURL(mpd_file, baseURLs, qualities[nextLower], audio_or_video, takeLower)
         else:
             return None
     else:
@@ -48,8 +48,19 @@ def parse_mpd(mpd_file:str, video_quality:str, audio_quality: str):
     
     baseURLs = [line.strip()[9:-10] for line in lines if "BaseURL" in line]
 
-    audURL = getURL(mpd_file, baseURLs, audio_quality, "audio")
-    vidURL = getURL(mpd_file, baseURLs, video_quality, "video")
+    if audio_quality.lower() == "highest":
+        audio_quality = qualities[-1]
+        takeLower = True
+    else:
+        takeLower = takeLowerQuality
+    audURL = getURL(mpd_file, baseURLs, audio_quality, "audio", takeLower)
+
+    if video_quality.lower() == "highest":
+        video_quality = qualities[-1]
+        takeLower = True
+    else:
+        takeLower = takeLowerQuality
+    vidURL = getURL(mpd_file, baseURLs, video_quality, "video", takeLower)
     
     return vidURL, audURL
 
@@ -80,10 +91,6 @@ input_folder = args.input_folder
 takeLowerQuality = args.takeLowerQuality
 # ordered list of qualities from lowest to highest
 qualities = ["240p", "360p", "480p", "720p", "1080p", "1440p", "2160p"]
-if video_quality.lower() == "highest":
-    video_quality = qualities[-1]
-if audio_quality.lower() == "highest":
-    audio_quality = qualities[-1]
 
 vidPath: str = ""
 audPath: str = ""
