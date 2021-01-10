@@ -28,6 +28,8 @@ def getURL(mpd_file, baseURLs: List[str], quality: str, audio_or_video):
                 return (None, None)
             else:
                 return getURL(mpd_file, baseURLs, qualities[nextLower], audio_or_video)
+        else:
+            return None
     else:
         return URLs[0]
 
@@ -90,7 +92,11 @@ for f in filter(lambda x: x.endswith(".mpd"), os.listdir(input_folder)):
     fullpath = os.path.join(input_folder, f)
     vidUrl, audUrl = parse_mpd(fullpath, video_quality, audio_quality)
     if not vidUrl:
-        print(f"Could not find video url for mpd file: {f}")
+        print(f"WARINNG: Could not find video url for mpd file: {f}. SKIPPING THIS FILE.")
+        continue
+    if not audUrl:
+        print(f"WARNING: Could not find audio url for mpd file: {f}. SKIPPING THIS FILE.")
+        continue
     vidPath = os.path.join("output", "Video_output.mp4")
     audPath = os.path.join("output", "Audio_output.mp4")
     download_file(vidUrl, vidPath)
