@@ -92,9 +92,6 @@ takeLowerQuality = args.takeLowerQuality
 # ordered list of qualities from lowest to highest
 qualities = ["240p", "360p", "480p", "720p", "1080p", "1440p", "2160p"]
 
-vidPath: str = ""
-audPath: str = ""
-p = None
 for f in filter(lambda x: x.endswith(".mpd"), os.listdir(input_folder)):
     fullpath = os.path.join(input_folder, f)
     vidUrl, audUrl = parse_mpd(fullpath, video_quality, audio_quality)
@@ -123,17 +120,6 @@ for f in filter(lambda x: x.endswith(".mpd"), os.listdir(input_folder)):
     ]
     print(f"stitching audio to video with ffmpeg and outputting to {output_file}")
     p = Popen(args, stdout=PIPE, stderr=PIPE)
-
-if p:
-    output, err = p.communicate()
-    p_status = p.wait()
-else:
-    quit()
-
-if os.path.isfile(vidPath):
-    os.remove(vidPath)
-if os.path.isfile(audPath):
-    os.remove(audPath)
 
     
 ### Adding audio
