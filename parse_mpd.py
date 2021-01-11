@@ -53,6 +53,7 @@ def parse_mpd(mpd_file:str, video_quality:str, audio_quality: str):
         takeLower = True
     else:
         takeLower = takeLowerQuality
+    print(f"Getting audio link {audio_quality}")
     audURL = getURL(mpd_file, baseURLs, audio_quality, "audio", takeLower)
 
     if video_quality.lower() == "highest":
@@ -60,6 +61,7 @@ def parse_mpd(mpd_file:str, video_quality:str, audio_quality: str):
         takeLower = True
     else:
         takeLower = takeLowerQuality
+    print(f"Getting video link {video_quality}")
     vidURL = getURL(mpd_file, baseURLs, video_quality, "video", takeLower)
     
     return vidURL, audURL
@@ -81,7 +83,7 @@ parser.add_argument('-v', '--video-quality', dest='video_quality', default="360p
 parser.add_argument('-a', '--audio-quality', dest='audio_quality', default="360p", type=str,
                     help='''audio quality: Choose from ["240p", "360p", "480p", "720p", "1080p", "1440p", "2160p", "highest"]
                     (might not be available, 240p, 360p, 480p are usually available)''')
-parser.add_argument('-t', '--take-lower-quality', dest='takeLowerQuality', default=True, action="store_true",
+parser.add_argument('-t', '--take-lower-quality', dest='takeLowerQuality', action="store_true",
                     help='If the desired quality is not available, take the next available quality below the specified quality.')
 
 args = parser.parse_args()
